@@ -27,6 +27,12 @@ const TabsLayout = () => {
                     <Ionicons name='settings' color={color} size={size}/>
                   ) 
             }} />
+             <Tabs.Screen name='user' options={
+                { title: "User",
+                  tabBarIcon : ({color, size}) => (
+                    <Ionicons name='person' color={color} size={size}/>
+                  ) 
+            }} />
         </Tabs>
     )
 }
